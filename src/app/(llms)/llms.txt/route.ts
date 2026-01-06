@@ -1,9 +1,6 @@
 import { SITE_INFO } from "@/config/site";
-import { getAllPosts } from "@/features/blog/data/posts";
 
-const allPosts = getAllPosts();
-
-const content = `# chanhdai.com
+const content = `# rotonda.com
 
 > A minimal portfolio, component registry, and blog to showcase my work as a Design Engineer.
 
@@ -15,7 +12,6 @@ const content = `# chanhdai.com
 
 ## Blog
 
-${allPosts.map((item) => `- [${item.metadata.title}](${SITE_INFO.url}/blog/${item.slug}.mdx): ${item.metadata.description}`).join("\n")}
 `;
 
 export const dynamic = "force-static";

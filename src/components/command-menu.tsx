@@ -4,7 +4,6 @@ import { useCommandState } from "cmdk";
 import type { LucideProps } from "lucide-react";
 import {
   BriefcaseBusinessIcon,
-  CircleUserIcon,
   CornerDownLeftIcon,
   LetterTextIcon,
   MoonStarIcon,

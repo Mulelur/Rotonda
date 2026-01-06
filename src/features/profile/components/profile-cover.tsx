@@ -1,5 +1,4 @@
 import { BrandContextMenu } from "@/components/brand-context-menu";
-import { ChanhDaiMark } from "@/components/chanhdai-mark";
 import { FlickeringGrid } from "@/components/magicui/flickering-grid";
 import { cn } from "@/lib/utils";
 
@@ -15,7 +14,6 @@ export function ProfileCover() {
         )}
       >
         <FlickeringGrid />
-        {/* <ChanhDaiMark id="js-cover-mark" className="h-1/4 w-auto" /> */}
       </div>
     </BrandContextMenu>
   );

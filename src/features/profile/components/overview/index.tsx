@@ -1,4 +1,5 @@
 import { GlobeIcon, MapPinIcon, MarsIcon, VenusIcon } from "lucide-react";
+import Image from "next/image";
 
 import { USER } from "@/features/profile/data/user";
 import { urlToName } from "@/utils/url";
@@ -30,10 +31,12 @@ export function Overview() {
           <div className="flex gap-1">
             <IntroItem icon={MapPinIcon} content={USER.address} />
             <span className="flex items-center gap-1">
-              <img
+              <Image
                 src="https://flagcdn.com/za.svg"
                 alt="US Flag"
                 className="inline-block h-4 w-4"
+                width={500}
+                height={500}
               />
             </span>
           </div>
