@@ -36,7 +36,8 @@ I'm also the creator of [weblinnk](https://react-wheel-picker.chanhdai.com) — 
 
 Let's connect and collaborate!
   `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
+  avatar:
+    "https://firebasestorage.googleapis.com/v0/b/weblinnk-project.appspot.com/o/Rotonde%20Photo.jpg?alt=media&token=02adc349-bbfc-4288-8021-302e0f4116e3",
   ogImage:
     "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1755355653",
   namePronunciationUrl: "https://assets.chanhdai.com/audio/chanhdai.mp3",
